@@ -130,7 +130,7 @@ class Login:
 
         def on_leave(event):
             if self.confirm_password_sign_out.get() == '':
-                self.confirm_password_sign_out.insert(0, 'Password')
+                self.confirm_password_sign_out.insert(0, 'Confirm Password')
 
         self.confirm_password_sign_out = Entry(sign_out_frame, width=35, fg='black', border=0, bg='white',
                                                font=('Helvetica', 11))
